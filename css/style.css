@@ -418,11 +418,13 @@ img {
 .get-started {
   padding-left: calc((100% - 1110px) / 2);
   padding-right: 15px;
+  margin-right: calc((100% - 1110px) / 2);
 }
 
 @media (max-width: 1140px) {
   .get-started {
     padding-left: 15px;
+    margin: 0;
   }
 }
 
