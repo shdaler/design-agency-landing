@@ -262,3 +262,142 @@ img {
 .get-started-link {
   text-transform: uppercase;
 }
+
+.footer {
+  padding-top: 300px;
+  color: #fff;
+  background-image: url("../img/footer-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 52px;
+  border-bottom: 1px solid #5d6544;
+}
+
+.footer-contacts-item:not(:last-child) {
+  margin-right: 128px;
+}
+
+.footer-contacts-text {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 40px;
+  color: #b6c197;
+}
+
+.footer-contacts-value {
+  display: inline-block;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 40px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-middle {
+  --grid-gap: 70px;
+  display: grid;
+  gap: var(--grid-gap);
+  grid-template-columns: repeat(4, 1fr);
+  padding: 60px 0;
+  border-bottom: 1px solid #5d6544;
+}
+
+.footer-column:last-child {
+  position: relative;
+}
+
+.footer-column:last-child::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: calc(-1 * (var(--grid-gap)));
+  width: 1px;
+  height: 100%;
+  background-color: #5d6544;
+}
+
+.footer-title {
+  margin: 0;
+  margin-bottom: 21px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.footer-link {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 40px;
+  text-decoration: none;
+  color: #b6c197;
+}
+
+.footer-text {
+  margin: 0;
+  margin-bottom: 23px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #b6c197;
+}
+
+.footer-mail {
+  display: inline-block;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social-item:not(:last-child) {
+  margin-right: 11px;
+}
+
+.social-link {
+  display: block;
+  border-radius: 100%;
+  width: 33px;
+  height: 33px;
+  background-color: #ffd723;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 18px auto;
+  opacity: 0.4;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.social-link:hover {
+  opacity: 1;
+}
+
+.social-link-fb {
+  background-image: url("../img/facebook.svg");
+}
+
+.social-link-tw {
+  background-image: url("../img/twitter.svg");
+}
+
+.social-link-g {
+  background-image: url("../img/google-plus.svg");
+}
+
+.social-link-in {
+  background-image: url("../img/linkedin.svg");
+}
