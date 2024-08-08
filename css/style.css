@@ -95,21 +95,21 @@ img {
 }
 
 .link:hover {
-  color: #ffd723;
+  color: #ffd723e4;
 }
 
 .site-title {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 38px;
   line-height: 46px;
-  color: #4d533c;
+  color: #4a5139;
 }
 
 .header {
   position: absolute;
   left: 0;
   top: 0;
-  padding: 24px 0;
+  padding: 26px 0;
   width: 100%;
 }
 
