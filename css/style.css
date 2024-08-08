@@ -127,7 +127,7 @@ img {
   padding: var(--offset-vertical) var(--offset);
   width: 40px;
   height: 40px;
-  background-color: #f5f6f7;
+  background-color: #f5f6f7f8;
 }
 
 .burger-line {
@@ -152,7 +152,7 @@ img {
 .hero {
   padding-top: 189px;
   padding-bottom: 100px;
-  min-height: 811px;
+  min-height: 812px;
   background-image: url("../img/hero-bg.jpg");
   background-position: center;
   background-size: cover;
@@ -187,7 +187,7 @@ img {
 }
 
 .hero-link {
-  color: #ffd723;
+  color: #ffd723f8;
 }
 
 .services {
@@ -221,7 +221,7 @@ img {
 
 .services-descr {
   margin: 0;
-  margin-bottom: 56px;
+  margin-bottom: 57px;
   max-width: 194px;
   font-weight: 500;
   font-size: 14px;
@@ -383,7 +383,7 @@ img {
 }
 
 .social-link:hover {
-  opacity: 1;
+  opacity: 1.1;
 }
 
 .social-link-fb {
@@ -405,7 +405,7 @@ img {
 .copyright {
   font-size: 14px;
   line-height: 21px;
-  color: #b5c096;
+  color: #b6c393;
 }
 
 .footer-bottom {
