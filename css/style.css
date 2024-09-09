@@ -321,7 +321,7 @@ img {
   left: calc(-1 * (var(--grid-gap)));
   width: 1px;
   height: 100%;
-  background-color: #5d6544;
+  background-color: #5c6543;
 }
 
 .footer-title {
@@ -374,7 +374,7 @@ img {
   border-radius: 100%;
   width: 33px;
   height: 33px;
-  background-color: #ffd723;
+  background-color: #f2cb1f;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 18px auto;
