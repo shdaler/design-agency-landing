@@ -78,8 +78,8 @@ img {
   font-size: 16px;
   line-height: 1.2;
   text-decoration: none;
-  color: #d4d6d4;
-  transition: color 0.3s ease-in-out;
+  color: #d4d6d4fc;
+  transition: color 0.4s ease-in-out;
 }
 
 .link svg {
@@ -100,16 +100,16 @@ img {
 
 .site-title {
   font-weight: 700;
-  font-size: 38px;
+  font-size: 40px;
   line-height: 46px;
-  color: #4a5139;
+  color: #4a5139fb;
 }
 
 .header {
   position: absolute;
   left: 0;
   top: 0;
-  padding: 26px 0;
+  padding: 24px 0;
   width: 100%;
 }
 
@@ -210,7 +210,7 @@ img {
 
 .services-subtitle {
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   max-width: 183px;
   font-weight: 500;
   font-size: 24px;
@@ -321,7 +321,7 @@ img {
   left: calc(-1 * (var(--grid-gap)));
   width: 1px;
   height: 100%;
-  background-color: #5d6544;
+  background-color: #5c6543;
 }
 
 .footer-title {
@@ -374,7 +374,7 @@ img {
   border-radius: 100%;
   width: 33px;
   height: 33px;
-  background-color: #ffd723;
+  background-color: #f2cb1f;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 18px auto;
